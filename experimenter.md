@@ -7,5 +7,13 @@
 [Add your comments or discuss](https://github.com/VH-Lab/neurosciencemetadata/issues/1)
 
 
+# Metadata from other platforms:
+
+NWB:
+
+odML: 
+
+
+
 
 
