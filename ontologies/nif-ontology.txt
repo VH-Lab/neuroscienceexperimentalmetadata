@@ -1,0 +1,31 @@
+NIF-Ontology, brain part queries:
+
+
+See all "anatomical entries": http://ontology.neuinfo.org/trees/query/rdfs:subClassOf/UBERON:0001062
+
+To view the "tree" of "lateral geniculate body" on EBI: https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001926
+   % the blue "P" means the item is "a part of" the item named in the antecedent class
+
+Get everything filed as a "part of" or a "subclass of" the node called "nervous system" (logging in with a "user" access key):
+https://scicrunch.org/api/1/sparc-scigraph/graph/neighbors/UBERON:0001016?relationshipType=subClassOf&relationshipType=BFO:0000050&direction=INCOMING&depth=100&key=hJ11JrXAMlnBzuWzREV14ctciyPXNVBw
+
+
+Get everything filed as a "part of" or a "subclass of" the node called "lateral geniculate body" (UBERON:0001926)
+https://scicrunch.org/api/1/sparc-scigraph/graph/neighbors/UBERON:0001926?relationshipType=subClassOf&relationshipType=BFO:0000050&direction=INCOMING&depth=100&key=hJ11JrXAMlnBzuWzREV14ctciyPXNVBw
+
+
+Matlab: 
+Get everything filed as a "part of" or a "subclass of" the node called "nervous system" (UBERON:0001016), in Matlab:
+
+root = 'UBERON:0001016';
+depth = 100;
+command = ['https://scicrunch.org/api/1/sparc-scigraph/graph/neighbors/' ...
+                root ...
+                '?relationshipType=subClassOf&relationshipType=BFO:0000050' ...
+                '&direction=INCOMING' ...
+                '&depth=' int2str(depth) ...
+                '&key=hJ11JrXAMlnBzuWzREV14ctciyPXNVBw'];
+
+J = jsondecode(urlread(command));
+
+

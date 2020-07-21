@@ -1,0 +1,5 @@
+Allen Brain Institute structural ontologies
+
+http://help.brain-map.org/display/api/Downloading+an+Ontology%27s+Structure+Graph
+
+Mouse Brain Atlas: http://api.brain-map.org/api/v2/structure_graph_download/1.json 
