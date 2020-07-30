@@ -2,7 +2,7 @@
 
 | Subcategory name	| Fieldname |	Use (Required or optional) |	Category (Descriptive, Structural, Administrative)	| General Description |	Type |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| Experimental Subject | | | | | |
+| Metadata for All Subjects | | | | | |
 | | subject_id	   |   required| 	structural | a unique identifier for the subject | NEMD Unique identifier |
 | | local_identifier | optional	| structural |	an identifier for the subject within the lab or locally	| string |
 | Species Identification for Subject | | | | | |
