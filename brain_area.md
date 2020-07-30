@@ -2,7 +2,7 @@
 
 | Subcategory name	| Fieldname |	Use (Required or optional) |	Category (Descriptive, Structural, Administrative)	| General Description |	Type |
 | --------- | --------- | --------- | --------- | --------- | --------- |
-| Metadata for All Brain Areas | | | | | |
+| Metadata for Brain Area | | | | | |
 | | name | required | 	descriptive | the name of the brain area | controlled vocabulary (dependent on ontology) |
 | | brain_area_id | required	| structural |	the id from a given ontology	| controlled entry (must match name in ontology) |
 | | ontology_name	| required	| descriptive |	the name of the ontology used	| controlled entry (approved ontology) |
