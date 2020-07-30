@@ -23,11 +23,11 @@
 | | width |	optional | descriptive	| the width of the subject | number (long double) |
 | | age |	optional | descriptive	| the age of the subject | number |
 | Metadata for Human Subject | | | | | |
-| | gender |	optional | descriptive	| the gender of the subject | Gender string |
-| | race | optional | descriptive | the race of the subject | Race string |
-| | nationality | optional | descriptive | the nationality of the subject | Nationality String |
-| | education_level |	optional | descriptive	| the highest degree earned | Education string |
-| | laterality |	optional | descriptive	| the dominant hand of the subject | string |
+| | gender |	optional | descriptive	| the gender of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
+| | race | optional | descriptive | the race of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
+| | nationality | optional | descriptive | the nationality of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
+| | education_level |	optional | descriptive	| the highest degree earned | ontology_entry (_Ontology1_, _Ontology2_) |
+| | laterality |	optional | descriptive	| the dominant hand of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
 | Metadata for Cell Culture | |	|	| | |
 | | plate_id |	optional | structural	| a unique identifier for the cell culture | NEMD Unique identifier |
 | | culture_kingdom | required | descriptive	| the kingdom the culture belongs to | string |
