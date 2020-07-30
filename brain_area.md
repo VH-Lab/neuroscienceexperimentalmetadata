@@ -8,7 +8,7 @@
 | | ontology_name	| required	| descriptive |	the name of the ontology used	| controlled entry (approved ontology) |
 | Metadata for Brain Area Relationship | | | | | |
 | | experimental_element_id	| required	| structural |	The identifier of the experimental element being referred to	| string |
-| | relationship	| required	| descriptive |	The relationship between the experimental object and the brain area	| string |
+| | relationship	| required	| descriptive |	The relationship between the experimental object and the brain area	| controlled vocabulary |
 
 
 
