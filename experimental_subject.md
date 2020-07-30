@@ -23,11 +23,10 @@
 | | width |	optional | descriptive	| the width of the subject | number (long double) |
 | | age |	optional | descriptive	| the age of the subject | number |
 | Metadata for Human Subject | | | | | |
-| | legal_name |	required | structural	| the legal name of the subject | string |
-| | gender |	optional | descriptive	| the gender of the subject | string |
-| | email |	optional | administrative	| the birthday of the subject in YYYY-MM-DD format | string |
-| | phone_number |	optional | administrative	| the phone number contact info of the subject | string |
-| | education_level |	optional | descriptive	| the highest degree earned | string |
+| | gender |	optional | descriptive	| the gender of the subject | Gender string |
+| | race | optional | descriptive | the race of the subject | Race string |
+| | nationality | optional | descriptive | the nationality of the subject | Nationality String |
+| | education_level |	optional | descriptive	| the highest degree earned | Education string |
 | | laterality |	optional | descriptive	| the dominant hand of the subject | string |
 | Metadata for Cell Culture | |	|	| | |
 | | plate_id |	optional | structural	| a unique identifier for the cell culture | NEMD Unique identifier |
