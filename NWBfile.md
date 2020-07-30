@@ -47,14 +47,15 @@
 | | processing | required | descriptive | ProcessingModule objects beloning to this NWBFile | various |
 | | lab_meta_data | optional | descriptive | extension that contains lab-specific metadata | various |
 | | electrodes | required | descriptive and structural | ElectrodeTable that belongs to this NWBFile | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
-| |  | required | descriptive and structural |  | various |
+| | electrode_groups | required | descriptive and structural | ElectrodeGroups that belong to this NWBFile | various |
+| | ic_electrodes | required | | use icephys_electrodes parameter instead | various |
+| | sweep_table | required | descriptive | SweepTable that belongs to this NWBFile | various |
+| | imaging_planes | required | descriptive and structural | ImagingPlanes that belong to this NWBFile | various |
+| | ogen_sites | required | descriptive and structural | OptogeneticStimulusSites that belong to this NWBFile | various |
+| | devices | required | descriptive | Device objects belonging to this NWBFile | various |
+| | subject | required | descriptive | subject metadata | various |
+| | scratch | optional | structural | scratch data | various |
+| | icephys_electrodes | required | descriptive and structural | IntracelularElectrodes that belong to this NWBFile | various |
 
  
 [Add your comments or discuss](https://github.com/VH-Lab/neurosciencemetadata/issues/1)
