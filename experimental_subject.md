@@ -29,8 +29,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Add your comments or discuss](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/issues/4)
+
+# Metadata from other platforms:
+
+NWB:
+
+odML: 
+
+
+
+
+
 Very early draft:
 | Metadata for Cell Culture | |	|	| | |
+| --------- | --------- | --------- | --------- | --------- | --------- |
 | | plate_id |	optional | structural	| a unique identifier for the cell culture | NEMD Unique identifier |
 | | culture_kingdom | required | descriptive	| the kingdom the culture belongs to | string |
 | | culture_genus | optional | descriptive	| the genus the culture belongs to | string |
@@ -53,22 +79,3 @@ Very early draft:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-[Add your comments or discuss](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/issues/4)
-
-# Metadata from other platforms:
-
-NWB:
-
-odML: 
