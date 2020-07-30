@@ -13,6 +13,23 @@
 | | guide_tube_material (guage)?? | optional | descriptive | the type of material the electrode guidetube is made of (polyamide, steel, etc) | string |
 | | guide_tube_diameter (guage)?? | optional | descriptive | size of the guide tube | float |
 | | channel_count | optional | descriptive | number of channels | float |
+| N-trodes | | | | | |
+| | material | optional | descriptive | The material the electrodes are made of (ie carbon fiber, glass, nichrome) | string |
+| | material_manufacturer  | optional | administrative | The manufacturer of the wires the electrodes are made of | string |
+| | shape_parameters | optional | descriptive | The shape parameters of the electrode. Describes electrode geometry | array? |
+| | tip_size | optional | descriptive | Tip size of electrode | float |
+| | coating | optional | descriptive | The coating used to insulate the electrodes | string |
+| | electrode_count | optional | descriptive | Number of electrodes in an array | int |
+| | tip_coat | optional | descriptive | Coating material used to plate electrode tips (e.g. platinum, gold) | string |
+| | final_cut_method | optional | descriptive | How the final length of the tetrode was cut (e.g. fire polishing, cold razor, etc) | string |
+| | usage | required | descriptive | What use the electrode serves (ie. ground, reference, channel) | string |
+| Glass probes | | | | | |
+| | glass_type | optional | descriptive | the type of glass used to create electrodes (quartz, borosilicate) | string |
+| | glass_size | optional | descriptive | Inner and outer diameter of glass | string |
+| | fire_polish | optional | descriptive | Describes whether electrodes were fire polished | boolean |
+| | puller | optional | descriptive | Puller used to make (glass) electrodes | string |
+| | pull_parameter | optional | descriptive | Specific pull parameters (ie. heat, trip velocity, heat and cooling duration) | string |
+| | electrolyte | optional | descriptive | the type of electrolyte the electrode is filled with | string |
 
 [Add your comments or discuss](https://github.com/VH-Lab/neurosciencemetadata/issues/1)
 
