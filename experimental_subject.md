@@ -6,10 +6,7 @@
 | | subject_id	   |   required| 	structural | a unique identifier for the subject | NEMD Unique identifier |
 | | local_identifier | optional	| structural |	an identifier for the subject within the lab or locally	| string |
 | Species Identification for Subject | | | | | |
-| | scientific_name |	required |	descriptive	| the scientific name of the species | ontology scientific name string or "unknown |
-| | common_name | optional |	descriptive |	the common name of the species	| ontology common name string or "unknown" | 
-| |	ontology |	required	| structural | the ontology cited | "NCBI GenBank" (or other valid ontology) |
-| |  ontology_id | required | structural | the node or ID of the entry that is cited in the ontology | ontology ID |
+| | species |	required |	descriptive	| the species identifier | ontology_entry (_NBCI Genebank_ -- species identifer) |
 | Birth Parameters for Subject | | | | | |
 | | date_of_birth |	required |	structural, descriptive, and administrative	| the most likely date of birth of the subject | ISO 8601 Date |
 | | date_of_birth_earliest |	optional |	structural, descriptive, and administrative	| the earliest possible date of birth of the subject | ISO 8601 Date |
@@ -28,6 +25,11 @@
 | | nationality | optional | descriptive | the nationality of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
 | | education_level |	optional | descriptive	| the highest degree earned | ontology_entry (_Ontology1_, _Ontology2_) |
 | | laterality |	optional | descriptive	| the dominant hand of the subject | ontology_entry (_Ontology1_, _Ontology2_) |
+
+
+
+
+Very early draft:
 | Metadata for Cell Culture | |	|	| | |
 | | plate_id |	optional | structural	| a unique identifier for the cell culture | NEMD Unique identifier |
 | | culture_kingdom | required | descriptive	| the kingdom the culture belongs to | string |
