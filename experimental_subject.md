@@ -4,8 +4,8 @@
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | Experimental Subject | | | | | |
 | | subject_id	   |   required| 	structural | a unique identifier for the subject | NEMD Unique identifier |
-| --------  | local_identifier | optional	| structural |	an identifier for the subject within the lab or locally	| string |
-| Species Identification for Subject | -------- |	-------- |	--------	| -------- | ---- |
+| | local_identifier | optional	| structural |	an identifier for the subject within the lab or locally	| string |
+| Species Identification for Subject | | | | | |
 | --------  | scientific_name |	required |	descriptive	| the scientific name of the species | ontology scientific name string or "unknown |
 | --------  | common_name | optional |	descriptive |	the common name of the species	| ontology common name string or "unknown" | 
 | -------- |	ontology |	required	| structural | the ontology cited | "NCBI GenBank" (or other valid ontology) |
