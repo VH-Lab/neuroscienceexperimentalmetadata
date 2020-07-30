@@ -1,7 +1,7 @@
 # App metadata
 
 | Subcategory name	| Fieldname |	Use (Required or optional) |	Category (Descriptive, Structural, Administrative)	| General Description |	Type |
-| 	| -------- |	-------- |	--------	| -------- | ---- |
+|| -------- |	-------- |	--------	| -------- | ---- |
 |   | name	   |   required| 	descriptive and administrative | the name of the NDI app used to analyze the dataset | string |
 |   | version | optional | descriptive and administrative |	the version of the app	| string |
 |  | url	| optional	| descriptive and administrative |	the url forthe repository of the app	| url |
