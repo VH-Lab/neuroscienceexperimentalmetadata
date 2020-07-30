@@ -20,6 +20,7 @@
 | | weight |	optional | descriptive	| the weight of the subject | number (long double) |
 | | height |	optional | descriptive	| the height of the subject | number (long double) |
 | | length |	optional | descriptive	| the length of the subject | number (long double) |
+| | width |	optional | descriptive	| the width of the subject | number (long double) |
 | | age |	optional | descriptive	| the age of the subject | number |
 | Metadata for Human Subject | | | | | |
 | | legal_name |	required | structural	| the legal name of the subject | string |
