@@ -26,7 +26,7 @@
 | | guide_tube_material | optional | descriptive | The type of material the electrode guidetube is made of (polyamide, steel, etc) | string |
 | | guide_tube_diameter | optional | descriptive | The size of the guide tube | float |
 
-[Add your comments or discuss](https://github.com/VH-Lab/neurosciencemetadata/issues/1)
+[Add your comments or discuss](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/issues/6)
 
 
 # Metadata from other platforms:
