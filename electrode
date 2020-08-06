@@ -6,7 +6,7 @@
 | | type | optional | descriptive | What type of electrode (ie. sharp, patch, injection, extracellular, multibarrel, mutli-electrode-array, tetrode) | ontology_entry (_Ontology1_, _Ontology2_) |
 | | geometry | optional | structural | The geometry of the electrode | prb file |
 | | electrode_id | optional | administrative  | A unique identifier for the electrode. Custom ID to differentiate electrodes | string |
-| | channel_count | optional | structural | The number of channels | int
+| | channel_count | optional | structural | The number of channels | int |
 | | manufacturer | optional | administrative | The manufacturer of the electrodes | string |
 | Electrical Properties | | | | | |
 | | impedence | required | descriptive | Electrode impedence | float |
@@ -25,3 +25,15 @@
 | | connector | optional | descriptive | What sort of connector is used in the electrode (ex. omnetics with model number) | string |
 | | guide_tube_material | optional | descriptive | The type of material the electrode guidetube is made of (polyamide, steel, etc) | string |
 | | guide_tube_diameter | optional | descriptive | The size of the guide tube | float |
+
+[Add your comments or discuss](https://github.com/VH-Lab/neurosciencemetadata/issues/1)
+
+
+# Metadata from other platforms:
+
+NWB:
+
+odML: 
+
+
+
