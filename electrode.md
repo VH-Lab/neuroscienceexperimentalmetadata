@@ -16,7 +16,7 @@
 | | shape_parameter | optional | descriptive | The shape parameters of the electrode. Describes electrode geometry. | array |
 | | tip_size | optional | descriptive | Tip size of electrode | float |
 | | coating | optional | descriptive | The coating used to insulate the electrodes | string |
-| | electrode_count | optional | Number of electrodes in an array | int |
+| | electrode_count | optional | descriptive | Number of electrodes in an array | int |
 | | tip_coat | optional | descriptive | Coating material used to plate electrode tips (e.g. platinum, gold) | string |
 | | final_cut_method | optional | descriptive | How the final length of the tetrode was cut (e.g. fire polishing, cold razor, etc) | string |
 | Homebuilt Multichannel Electrode | | | | | |
