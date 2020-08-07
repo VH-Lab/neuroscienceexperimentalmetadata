@@ -1,2 +1,2 @@
-# NWB Metadta related to _experimenter_
+# NWB Metadata related to _experimenter_
 
