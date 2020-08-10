@@ -2,7 +2,7 @@
 
 | Subcategory name | Fieldname | Use (Required or optional) | Category (Descriptive, Structuraaal, Administrative) | General Description | Type |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| Intercellular Electrode | | | | |
+| Intercellular Electrode | | | | | |
 | | name | required | descriptive & structural | the name of this electrode | string |
 | | device | required | descriptive & structural | the device that wasused to record from this electrode | string |
 | | description | optional | descriptive | recording description, description of electrode (e.g., whole-cell, sharp, etc.) | string |
