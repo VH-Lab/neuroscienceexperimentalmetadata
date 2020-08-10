@@ -31,7 +31,7 @@
 
 # Metadata from other platforms:
 
-NWB:
+[NWB](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/blob/master/other_metadata/NWB/electrode.md)
 
 odML: 
 
