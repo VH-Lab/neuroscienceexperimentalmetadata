@@ -8,7 +8,7 @@
 | | description | optional | descriptive | recording description, description of electrode (e.g., whole-cell, sharp, etc.) | string |
 | | slice | optional | descriptive | information about slice used for recording | string |
 | | seal | optional | descriptive | information about seal used for recording | string |
-| | location | required | descriptive | area, layer, comments on estimation, stereotaxis coordinates (if in vivo, etc) | string |
+| | location | required | descriptive | area, layer, comments on estimation, stereotaxis coordinates (if in vivo, etc.) | string |
 | | resistance | required | structural | electrode resistance, unit: Ohm | string |
 | | filtering | required | structural | electrode specific filtering | string |
 | | initial_access_resistance | optional? | structural | initial access resistance | string |
