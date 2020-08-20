@@ -16,6 +16,20 @@
 [NWB](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/blob/master/other_metadata/NWB/experimenter.md)
 
 odML: 
+| Subcategory name	| Fieldname | General Description | Type |
+| ----- | ----- | ----- | ----- |
+| Person |  |  |  |
+| | Person | Information about a person. E.g. as Experimenter, Author, etc | string |
+| | FirstName | The persons first Name (John) | string |
+| | LastName | The persons last name (Doe) | string |
+| | FullName | The complete name of this person e.g. John Doe | person |
+| | Gender | Male or Female? | string |
+| | Birthday | The birthday. YYYY-MM-dd | date |
+| | Role | The role of this person e.g. when describing a project (Responsible investigator), or a recording(Experimenter) | string |
+| | Email | Person's Email | string |
+| | PhoneNumber | Person's phone number | string |
+| | Laterality | Handedness - the dominant hand of the subject | string |
+| | Education level | Highest archived education level of the person | string |
 
 Metadata from 3D Microscopy Working Group :
 
