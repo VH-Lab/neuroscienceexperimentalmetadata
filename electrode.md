@@ -33,7 +33,7 @@
 
 [NWB](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/blob/master/other_metadata/NWB/electrode.md)
 
-[odML] (https://github.com/VH-Lab/neuroscienceexperimentalmetadata/blob/master/other_metadata/odML/electrode.md)
+[odML](https://github.com/VH-Lab/neuroscienceexperimentalmetadata/blob/master/other_metadata/odML/electrode.md)
 
 
 
