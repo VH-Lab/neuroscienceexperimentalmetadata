@@ -17,7 +17,7 @@
 
 odML: 
 
-# Metadata from 3D Microscopy Working Group
+Metadata from 3D Microscopy Working Group :
 
 | Subcategory name	| Fieldname |	Use (Required or optional) |	Category (Descriptive, Structural, Administrative)	| General Description |	
 | --------	| -------- |	-------- |	--------	| -------- |
