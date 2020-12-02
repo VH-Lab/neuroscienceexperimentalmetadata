@@ -1,6 +1,6 @@
 # Electrode metadata
 
-| Subcategory name | Fieldname | Use (Required or optional) | Category (Descriptive, Structuraaal, Administrative) | General Description | Type |
+| Subcategory name | Fieldname | Use (Required or optional) | Category (Descriptive, Structural, Administrative) | General Description | Type |
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | Metadata for All Electrodes | | | | | |
 | | type | optional | descriptive | What type of electrode (ie. sharp, patch, injection, extracellular, multibarrel, mutli-electrode-array, tetrode) | ontology_entry (_Ontology1_, _Ontology2_) |
